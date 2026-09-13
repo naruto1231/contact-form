@@ -1,29 +1,28 @@
-Name
-Contact form
+# Contact Form
 
-Overview
-This tool is  you can receive to mesege from anybody.
+シンプルな問い合わせフォームです。PHPで送信されたメッセージを受け取り、テキストファイルに保存します。
 
-## Description
+## 概要
 
-## Demo
+誰でもメッセージを送信できる簡易的な問い合わせフォームのサンプルです。
 
-## VS. 
+## 構成ファイル
 
-## Requirement
+- `write.php` — フォームから送信されたメッセージを受け取り、保存する処理
+- `write.txt` — 送信されたメッセージの保存先
 
-## Usage
+## 動作環境
 
-## Install
+PHP が実行できる環境が必要です。
 
-## Contribution
+```bash
+php -S localhost:8000
+```
 
-## Licence
+## 注意事項
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+このリポジトリはデモ・練習用です。本番利用する場合は、入力値のバリデーションやスパム対策(reCAPTCHAなど)を追加することをおすすめします。
 
-## Author
+## ライセンス
 
-[tcnksm](https://github.com/tcnksm)
-
-
+MIT License
